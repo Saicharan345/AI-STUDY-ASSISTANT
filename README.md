@@ -1,6 +1,26 @@
 # AI Study Assistant 
 
-A modern, fast, and interactive study assistant that generates tailored **flashcards** and **quizzes** on any topic you want to learn. It uses the lightning-fast **Groq API** powered by `llama-3.3-70b-versatile` on the backend, and has a sleek, responsive React dashboard on the frontend.
+A modern, fast, and interactive study assistant that generates tailored **flashcards** and **quizzes** on any topic you want to learn. It uses the Groq API using Meta's Llama 3.3 70B Versatile model for generating structured study material, and has a sleek, responsive React dashboard on the frontend.
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### Flashcards
+
+![Flashcards](screenshots/flashcards.png)
+
+### Quiz
+
+![Quiz](screenshots/quiz.png)
+
+### Generated PDF
+
+![PDF](screenshots/pdf.png)
 
 ---
 
@@ -10,6 +30,17 @@ A modern, fast, and interactive study assistant that generates tailored **flashc
 - **Dynamic Quizzes**: Automatically generated multiple-choice quizzes with instant feedback and score tracking.
 - **Export to PDF**: Generate and download a print-friendly PDF of your study materials to study offline.
 - **Clean UI**: Built with React, Vite, and Tailwind CSS v4 for a highly fluid user experience.
+
+---
+
+## ✨ Additional Features
+
+- Loading and error handling
+- Request cancellation to prevent stale API responses
+- Interactive flashcards with flip animations
+- Quiz scoring with instant feedback
+- PDF export
+- Responsive design
 
 ---
 
@@ -24,8 +55,8 @@ A modern, fast, and interactive study assistant that generates tailored **flashc
 
 ### Backend
 - **FastAPI** — High-performance, lightweight Python web framework.
-- **Groq SDK** — Integration with Groq Cloud APIs for instant LLM generations.
-- **Uvicorn** — ASG server for running the FastAPI application.
+- **Groq SDK** — Integration with Groq Cloud APIs using Meta's Llama 3.3 70B Versatile model for generating structured study material.
+- **Uvicorn** — ASGI server for running the FastAPI application.
 - **Pydantic** — Strict data validation schemas.
 
 ---
@@ -116,15 +147,18 @@ Make sure you have the following installed:
 │   ├── requirements.txt   # Python dependencies
 │   ├── schema.py          # Data validation models
 │   └── .env               # API keys (ignored by git)
-└── frontend/
-    ├── src/
-    │   ├── components/    # Reusable UI pieces (FlashCard, Quiz, etc.)
-    │   ├── pages/         # Page layouts (Home)
-    │   ├── services/      # API axios setup
-    │   ├── App.jsx        # Main application component
-    │   └── main.jsx       # App entrypoint
-    ├── vite.config.js     # Vite configuration
-    └── package.json       # Node dependencies and scripts
+├── frontend/
+│   ├── public/
+│   │   └── screenshots/   # App screenshots
+│   ├── src/
+│   │   ├── components/    # Reusable UI pieces (FlashCard, Quiz, etc.)
+│   │   ├── pages/         # Page layouts (Home)
+│   │   ├── services/      # API axios setup
+│   │   ├── App.jsx        # Main application component
+│   │   └── main.jsx       # App entrypoint
+│   ├── vite.config.js     # Vite configuration
+│   └── package.json       # Node dependencies and scripts
+└── screenshots/           # App screenshots for README
 ```
 
 ---
@@ -133,6 +167,26 @@ Make sure you have the following installed:
 
 1. **User input**: You type a topic (e.g., "Photosynthesis") on the home page.
 2. **API Request**: The frontend makes a POST request to `/generate` with the topic.
-3. **AI Generation**: FastAPI constructs a system prompt requesting strict JSON containing both flashcards and multiple-choice questions, and queries Groq's `llama-3.3-70b-versatile` model.
+3. **AI Generation**: FastAPI constructs a system prompt requesting strict JSON containing both flashcards and multiple-choice questions, and queries Groq's Llama 3.3 70B Versatile model.
 4. **Validation**: FastAPI parses the JSON, validates it against structure definitions, and returns the response.
-5. **Interactive UI**: The React app renders the flashcards (with 3D flips) and the quiz (with progress trackers and score calculators).
+5. **Interactive UI**: The React app renders the flashcards (with flip animations) and the quiz (with progress trackers and score calculators).
+
+---
+
+## 🚀 Future Improvements
+
+- User authentication
+- Study history
+- Difficulty levels
+- Dark mode
+- AI-generated summaries
+- Progress tracking
+- Multiple language support
+
+---
+
+## 👨‍💻 Author
+
+**Saicharan Bagadi**
+
+GitHub: [https://github.com/Saicharan345](https://github.com/Saicharan345)
