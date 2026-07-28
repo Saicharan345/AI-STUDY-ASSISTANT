@@ -1,4 +1,4 @@
-# AI Study Assistant 🚀
+# AI Study Assistant 
 
 ## 🌐 Live Demo
 
@@ -9,7 +9,7 @@ A modern, fast, and interactive study assistant that generates tailored **flashc
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Home Page
 
@@ -38,7 +38,7 @@ A modern, fast, and interactive study assistant that generates tailored **flashc
 
 ---
 
-## ✨ Additional Features
+##  Additional Features
 
 - Loading and error handling
 - Request cancellation to prevent stale API responses
@@ -178,7 +178,7 @@ Make sure you have the following installed:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - User authentication
 - Study history
@@ -190,13 +190,13 @@ Make sure you have the following installed:
 
 ---
 
-## 🤖 AI Usage
+##  AI Usage
 
 This project was developed with assistance from AI tools (ChatGPT) for brainstorming, debugging, code review, and improving the project structure. All implementation details, integration, testing, and final code were reviewed, modified, and understood before submission.
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 - The quality of generated flashcards and quizzes depends on the AI model.
 - The backend is hosted on Render's free tier, so the first request after inactivity may take longer while the service wakes up.
@@ -204,7 +204,7 @@ This project was developed with assistance from AI tools (ChatGPT) for brainstor
 
 ---
 
-## ⏱️ Time Spent
+##  Time Spent
 
 Approximately 8 hours.
 
