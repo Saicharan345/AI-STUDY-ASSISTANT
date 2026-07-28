@@ -1,4 +1,4 @@
-# AI Study Assistant 🚀
+# AI Study Assistant 
 
 A modern, fast, and interactive study assistant that generates tailored **flashcards** and **quizzes** on any topic you want to learn. It uses the lightning-fast **Groq API** powered by `llama-3.3-70b-versatile` on the backend, and has a sleek, responsive React dashboard on the frontend.
 
