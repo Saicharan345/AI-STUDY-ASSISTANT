@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* ---------- Flashcard 3D Animation ---------- */
+
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* ---------- Smooth Animations ---------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+input {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* ---------- Card Shadow ---------- */
+
+.card-shadow {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- Gradient Background ---------- */
+
+.gradient-bg {
+  background: linear-gradient(
+    135deg,
+    #eff6ff 0%,
+    #eef2ff 50%,
+    #f5f3ff 100%
+  );
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+  h1 {
+    line-height: 1.2;
+  }
+}
