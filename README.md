@@ -1,4 +1,4 @@
-# AI Study Assistant 🚀
+# AI Study Assistant 
 
 🌐 **Live Demo**: [https://ai-study-assistant-eight-sigma.vercel.app/](https://ai-study-assistant-eight-sigma.vercel.app/)
 
@@ -35,7 +35,7 @@ A modern, fast, and interactive study assistant that generates tailored **flashc
 
 ---
 
-## ✨ Additional Features
+##  Additional Features
 
 - Loading and error handling
 - Request cancellation to prevent stale API responses
@@ -175,7 +175,7 @@ Make sure you have the following installed:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - User authentication
 - Study history
@@ -187,7 +187,7 @@ Make sure you have the following installed:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Saicharan Bagadi**
 
