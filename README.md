@@ -1,6 +1,9 @@
-# AI Study Assistant 
+# AI Study Assistant 🚀
 
-🌐 **Live Demo**: [https://ai-study-assistant-eight-sigma.vercel.app/](https://ai-study-assistant-eight-sigma.vercel.app/)
+## 🌐 Live Demo
+
+- **Frontend**: [https://ai-study-assistant-eight-sigma.vercel.app/](https://ai-study-assistant-eight-sigma.vercel.app/)
+- **Backend API**: [https://ai-study-assistant-7ygf.onrender.com](https://ai-study-assistant-7ygf.onrender.com)
 
 A modern, fast, and interactive study assistant that generates tailored **flashcards** and **quizzes** on any topic you want to learn. It uses the Groq API using Meta's Llama 3.3 70B Versatile model for generating structured study material, and has a sleek, responsive React dashboard on the frontend.
 
@@ -35,7 +38,7 @@ A modern, fast, and interactive study assistant that generates tailored **flashc
 
 ---
 
-##  Additional Features
+## ✨ Additional Features
 
 - Loading and error handling
 - Request cancellation to prevent stale API responses
@@ -175,7 +178,7 @@ Make sure you have the following installed:
 
 ---
 
-##  Future Improvements
+## 🚀 Future Improvements
 
 - User authentication
 - Study history
@@ -187,7 +190,27 @@ Make sure you have the following installed:
 
 ---
 
-##  Author
+## 🤖 AI Usage
+
+This project was developed with assistance from AI tools (ChatGPT) for brainstorming, debugging, code review, and improving the project structure. All implementation details, integration, testing, and final code were reviewed, modified, and understood before submission.
+
+---
+
+## ⚠️ Known Limitations
+
+- The quality of generated flashcards and quizzes depends on the AI model.
+- The backend is hosted on Render's free tier, so the first request after inactivity may take longer while the service wakes up.
+- The application currently does not save study history or user sessions.
+
+---
+
+## ⏱️ Time Spent
+
+Approximately 8 hours.
+
+---
+
+## 👨‍💻 Author
 
 **Saicharan Bagadi**
 
