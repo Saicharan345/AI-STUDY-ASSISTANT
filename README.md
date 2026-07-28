@@ -1,4 +1,6 @@
-# AI Study Assistant 
+# AI Study Assistant 🚀
+
+🌐 **Live Demo**: [https://ai-study-assistant-eight-sigma.vercel.app/](https://ai-study-assistant-eight-sigma.vercel.app/)
 
 A modern, fast, and interactive study assistant that generates tailored **flashcards** and **quizzes** on any topic you want to learn. It uses the Groq API using Meta's Llama 3.3 70B Versatile model for generating structured study material, and has a sleek, responsive React dashboard on the frontend.
 
