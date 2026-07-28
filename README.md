@@ -15,13 +15,14 @@ A modern, fast, and interactive study assistant that generates tailored **flashc
 
 ![Home](screenshots/home.png)
 
-### Flashcards
-
-![Flashcards](screenshots/flashcards.png)
 
 ### Quiz
 
 ![Quiz](screenshots/quiz.png)
+
+### Flashcards
+
+![Flashcards](screenshots/flashcards.png)
 
 ### Generated PDF
 
